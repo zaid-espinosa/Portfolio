@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+
+/* Separción navbar e image */
+.image-name {
+    margin-top: 130px;
+}
+
+/* Foto perfil circular */
+.image-name img {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+
+/* Centrar contenido image/name */
+.image-name img, h2, p, h3, h6 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+}
+
+.port-title {
+    margin-top: 50px;
+}
+
+/* Contenedor main */
+.main-container {
+    width: 80%;
+    margin: 80px auto;
+    margin-top: 130px;
+
+    /* Bordes */
+    border-radius: 10px;
+
+    /* Sombra */
+    -webkit-box-shadow: 9px 9px 7px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 9px 9px 7px 0px rgba(0,0,0,0.30);
+    box-shadow: 9px 9px 7px 0px rgba(0,0,0,0.30);
+}
+
+
+
+/* Contenerdor imágenes */
+.portfolio-cntainr {
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 center;
+}
+
+.portfolio-cntainr img {
+    margin-top: 40px;
+    width:200px;
+    height:200px;
+    border-radius: 12%; 
+}
+
+.about-me{
+    text-align: center;
+    width: 85%;
+    margin: 15px auto;
+}
+
+/* Contenedor Formulario */
+.contact {
+    width: 80%;
+    margin: 50px auto;
+    margin-bottom: 90px;
+}
+
+form {
+    color: white;
+}
+
+.sections {
+    margin-top: 150px;
+}
+
+footer {
+    margin-top: 250px;
+    background-color: #7c916fff;
+}
+
+.info-personal {
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.copyrght {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.copyrght p {
+    margin: 8px;
+}
+
+.buttons:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+}
